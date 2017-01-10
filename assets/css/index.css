@@ -1,0 +1,159 @@
+/**
+========================================================
+    ALL
+========================================================
+*/
+body {
+    background: url('../images/bg.jpg') no-repeat;
+}
+
+#content {
+    background: #EDECEC;
+}
+
+label.indie {
+    font-family: 'Indie Flower', cursive !important;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.middle-title label {
+    font-size: 35px;
+}
+
+/**
+========================================================
+    HEADER
+========================================================
+*/
+
+#header {
+    margin-top: 5px;
+}
+
+#header label.indie {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+#header .search {
+    margin-top: 29px;
+    margin-left: -10px;
+}
+
+#header .shopping-cart {
+    padding-top: 16px;
+}
+
+#header .shopping-cart i {
+    font-size: 40px;
+    color: black;
+}
+
+#header .shopping-cart .cart-items {
+    font-size: 40px !important;
+}
+
+#header .login label {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+#header .login label:hover, #header .shopping-cart i:hover {
+    color: #4c6076;
+}
+
+/**
+========================================================
+    FIRST BANNER
+========================================================
+*/
+
+.first-banner .slick-carousel div img {
+    margin: 0 auto;
+}
+
+/**
+========================================================
+    PRODUCT CARD
+========================================================
+*/
+
+.box-featured > div {
+    margin: 10px 0 10px 0;
+
+}
+
+.box-featured .row:last-child {
+    margin-top: 10px;
+}
+
+.sticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 89000;
+}
+
+.sticker-new {
+    background: url("../images/novo.png") no-repeat;
+    background-size: 100%;
+    left: auto;
+    right: -10px;
+}
+
+.product-card {
+    padding: 10px;
+    height: 400px;
+    width: 23% !important;
+    margin-left: 18px;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card img {
+    height: 290px;
+}
+
+.product-info .name {
+    font-size: 16px;
+    text-transform: uppercase;
+    z-index: 99999;
+    margin-top: 19px;
+    font-weight: bold;
+}
+
+.product-info .price {
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    bottom: 0;
+}
+
+.product-info .price button {
+    position: relative;
+    right: -40px;
+    bottom: 10px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.product-info .price button:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

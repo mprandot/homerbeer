@@ -9,69 +9,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/slick/slick.css">
     <link rel="stylesheet" href="assets/slick/slick-theme.css">
-
-    <style>
-        body {
-            background: url('images/bg.jpg') no-repeat;
-        }
-
-        #content {
-            background: #EDECEC;
-            height: 100vh;
-        }
-
-        #header {
-            margin-top: 5px;
-        }
-
-        #header label {
-            font-size: 50px;
-            padding-top: 10px;
-            font-family: 'Indie Flower', cursive !important;
-        }
-
-        #header .search {
-            margin-top: 29px;
-            margin-left: -10px;
-        }
-
-        #header .shopping-cart {
-            padding-top: 16px;
-        }
-
-        #header .shopping-cart i {
-            font-size: 40px;
-            color: black;
-        }
-
-        #header .shopping-cart .cart-items {
-            font-size: 40px !important;
-        }
-
-        #header .login label {
-            color: black;
-            font-size: 30px;
-            cursor: pointer;
-            padding-top: 31px;
-        }
-
-        #header .login label:hover, #header .shopping-cart i:hover {
-            color: #4c6076;
-        }
-
-        .first-banner .slick-carousel div img {
-            margin: 0 auto;
-        }
-
-        .slick-next {
-            right: 0;
-        }
-
-        .slick-prev {
-            left: 0;
-        }
-
-    </style>
+    <link rel="stylesheet" href="assets/css/index.css">
 
 </head>
 <body>
@@ -82,11 +20,11 @@
     <div id="header">
         <div class="row">
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2  logo">
-                <img src="images/logo.png" alt="logo" height="90">
+                <img src="assets/images/logo.png" alt="logo" height="90">
             </div>
 
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4  company-name">
-                <label>Homer's Beer</label>
+                <label class="indie">Homer's Beer</label>
             </div>
 
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3  search ">
@@ -96,14 +34,14 @@
             <div class="col-xs-2  col-sm-2 col-md-2 col-lg-2 shopping-cart text-center">
                 <a href="#">
                     <i class="fa fa-shopping-cart" aria-hidden="true">
-                        <label class="cart-items">10</label>
+                        <label class="cart-items indie">10</label>
                     </i>
                 </a>
             </div>
 
             <div class="col-xs-1  col-sm-1 col-md-1 col-lg-1 login">
                 <a href="#">
-                    <label>Entrar</label>
+                    <label class="indie">Entrar</label>
                 </a>
             </div>
 
@@ -124,7 +62,172 @@
                 <img src="assets/images/banner-3.jpg" alt="banner" height="300">
             </div>
         </div>
+    </div>
 
+    <div class="box-featured">
+        <div class="row">
+            <div class="col-sm-12 text-center middle-title">
+                <label class="indie">Produtos em destaque</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-1.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-2.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-3.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-4.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-5.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-6.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-7.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 product-card">
+
+                <div class="sticker sticker-new"></div>
+
+                <img src="assets/images/beer-8.png" alt="beer-1" class="beer img-responsive"/>
+
+                <div class="product-info">
+
+                    <div class="name">Cerveja artesanal</div>
+
+                    <div class="price">
+                        De <b>R$ 17,00</b><br>
+                        &nbsp;&nbsp;&nbsp; por <b>R$ 15,90</b>
+                        <button type="button" class="btn btn-info">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
 
     </div>
 
