@@ -4,7 +4,7 @@
 ========================================================
 */
 body {
-    background: url('../images/bg.jpg') no-repeat;
+    background: url('../images/bg.jpg') repeat-y;
 }
 
 #content {
@@ -64,7 +64,7 @@ label.indie {
     color: black;
     font-size: 30px;
     cursor: pointer;
-    padding-top: 20px;
+    padding-top: 26px;
 }
 
 #header .login label:hover, #header .shopping-cart i:hover {
@@ -87,22 +87,12 @@ label.indie {
 ========================================================
 */
 
-.box-featured > div {
-    margin: 10px 0 10px 0;
-
-}
-
-.box-featured .row:last-child {
-    margin-top: 10px;
-}
-
 .sticker {
     position: absolute;
     top: 0;
     left: 0;
     width: 60px;
     height: 60px;
-    z-index: 89000;
 }
 
 .sticker-new {
@@ -115,7 +105,7 @@ label.indie {
 .product-card {
     padding: 10px;
     height: 400px;
-    width: 23% !important;
+
     margin-left: 18px;
 }
 
@@ -156,4 +146,78 @@ label.indie {
     background-color: black;
     color: white;
     font-weight: bold;
+}
+
+/**
+========================================================
+    PRODUCT FEATURED
+========================================================
+*/
+
+.box-featured .row:last-child {
+    margin-top: 10px;
+}
+
+.box-featured > div {
+    margin: 10px 0 10px 0;
+
+}
+
+.box-featured .product-card {
+    width: 23% !important;
+}
+
+/**
+========================================================
+    PRODUCT SALE-OFF
+========================================================
+*/
+.box-saleoff .product-card {
+    width: 31% !important;
+}
+
+.box-saleoff .product-card img {
+    margin: 0 auto 10px auto !important;
+}
+
+.box-saleoff .product-card .text-center {
+    font-size: 16px;
+}
+
+.box-saleoff .product-card .see-more {
+    display: none;
+}
+
+.box-saleoff .product-card:hover .see-more {
+    display: block;
+}
+
+/*
+================================
+    NEWSLETTER MODAL
+================================
+*/
+#newsletter-modal .modal-body img {
+    position: absolute;
+    margin-top: -77px;
+    margin-left: -35px;
+}
+
+#newsletter-modal .modal-title {
+    margin-left: 55px !important;
+}
+
+#newsletter-modal .modal-body p {
+    margin-top: 15px !important;
+}
+
+/*
+================================
+    NEWSLETTER MODAL
+================================
+*/
+
+.company-info {
+    border-top: 1px solid #4c6076;
+    padding-top: 10px;
 }
