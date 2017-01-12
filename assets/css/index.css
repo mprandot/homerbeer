@@ -116,6 +116,7 @@ label.indie {
 
 .product-card img {
     height: 290px;
+    margin: 0 auto 10px auto !important;
 }
 
 .product-info .name {
@@ -173,9 +174,6 @@ label.indie {
     PRODUCT SALE-OFF
 ========================================================
 */
-.box-saleoff .product-card {
-    width: 31% !important;
-}
 
 .box-saleoff .product-card img {
     margin: 0 auto 10px auto !important;
@@ -214,7 +212,7 @@ label.indie {
 
 /*
 ================================
-    NEWSLETTER MODAL
+    COMPANY INFO
 ================================
 */
 
