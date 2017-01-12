@@ -7,6 +7,10 @@ body {
     background: url('../images/bg.jpg') repeat-y;
 }
 
+.container {
+    min-width: 100px !important;
+}
+
 #content {
     background: #EDECEC;
 }
@@ -27,6 +31,10 @@ label.indie {
     font-size: 35px;
 }
 
+.paddingTop20 {
+    padding-top: 20px;
+}
+
 /**
 ========================================================
     HEADER
@@ -43,7 +51,7 @@ label.indie {
 
 #header label.indie {
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 10px; 
 }
 
 #header .search {
@@ -66,7 +74,7 @@ label.indie {
 
 #header .login label {
     color: black;
-    font-size: 30px;
+    font-size: 28px;
     cursor: pointer;
     padding-top: 26px;
 }
@@ -83,6 +91,24 @@ label.indie {
 
 .first-banner .slick-carousel div img {
     margin: 0 auto;
+}
+
+/**
+========================================================
+    MENU
+========================================================
+*/
+
+.menu {
+    font-size: 14px;
+    font-weight: bold;
+}
+.list-group.menu a {
+    text-align: center;
+}
+.list-group.menu a:hover {
+    text-align: center;
+    background-color: #FFD600;
 }
 
 /**
@@ -142,11 +168,11 @@ label.indie {
     background: transparent;
     border: 1px solid black;
     color: black;
+    font-weight: bold;
 }
 
 .product-info .price button:hover {
-    background-color: black;
-    color: white;
+    background-color: #FFD600;
     font-weight: bold;
 }
 
