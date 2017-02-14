@@ -15,7 +15,7 @@ body {
     background: #EDECEC;
 }
 
-label.indie {
+label.indie, span.indie {
     font-family: 'Indie Flower', cursive !important;
 }
 
@@ -31,8 +31,40 @@ label.indie {
     font-size: 35px;
 }
 
+.paddingL0 {
+    padding-left:0px;
+}
+
+.paddingLR0 {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.paddingTop10 {
+    padding-top: 10px;
+}
+
 .paddingTop20 {
     padding-top: 20px;
+}
+
+.paddingB10 {
+    padding-bottom:10px;
+}
+
+.title-area {
+    background: url('../images/bgtitulohome.png') repeat-x scroll 0 0;
+    width:100%;
+    
+}
+
+.title-area .title {
+    color: #444;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 180%;
 }
 
 /**
@@ -189,10 +221,6 @@ label.indie {
 .box-featured > div {
     margin: 10px 0 10px 0;
 
-}
-
-.box-featured .product-card {
-    /*padding: 20px;*/
 }
 
 /**
